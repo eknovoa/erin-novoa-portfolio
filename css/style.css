@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navigation section */
+
+nav {
+  background-color: #F0EAE3;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 50%;
+}
+
+nav ul {
+  display: flex; 
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+
+
+nav li a {
+  text-decoration: none;
+  color: #7D8479;
+  font-size: 24px;
+  padding: 0 20px;
+  font-family: "Playfair Display";
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  width: 275px;
+  height: auto;
+}
+
+
+
+/* body section */
+
+
+#main-page {
+  background-color: #F0EAE3;
+  text-align: center;
+  color: #7D8479; 
+  font-family: "Playfair Display"; 
+  font-size: 3em;
+  padding: 200px 0px;
+  display: flex;
+}
+
+.main-text {
+  text-align: center;
+  width: 100%;
+}
+
+#main-page h3 {
+  font-family: "Raleway";
+  font-size: 0.5em;
+  padding-top: 55px;
+}
+
+
+.social-links-container {
+  padding-left: 75px;
+}
+
+.social-links {
+  display: inline-block;
+}
+
+.social-link img {
+  height: 30px;
+  width: auto;
+  transform: rotate(-90deg);
+  padding: 0;
+  margin: 0;
+}
+
+.link-item {
+  list-style: none;
+  padding: 0;
+}
+
+.link-item:hover {
+  transform: scale(1.2);
+}
+
+#fun-section {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#about-section-container {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+#about-section-container svg {
+  padding: 0 10px;
+}
+
+/* project section */
+
+#projects {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+
+.projects-title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  color: #7e8277;
+}
+
+
+.project-skills {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.skill-box1 {
+  background-color: #7D8479;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+
+.skill-box2 {
+  background-color: #B36952;
+  padding: 5px 20px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+
+.skill-box3 {
+  background-color: #C39776;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+
+.skill-box4 {
+  background-color: #a1a49f;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+
+.skill-box5 {
+  background-color: #7e8277;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+
+.skill-text {
+  color: white;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+.hundehutte, .yogi {
+  height: 500px;
+  width: 250px;
+}
+
+.py-fi, .farm {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+.hundehutte2 {
+  height: 490px;
+  width: 250px;
+}
+
+.figgy {
+  height: 400px;
+  width: 200px;
+  padding: 10px 10px;
+}
+
+.app-images {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.app-description {
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 75px;
+  padding-right: 75px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+}
+
+.app-link {
+  text-decoration: none;
+  background-color: #c39776;
+  color: white;
+  padding: 5px 10px;
+}
+
+.github-link {
+  text-decoration: underline;
+  color: #c39776;
+}
+
+.github-link:hover {
+  opacity: 0.5;
+}
+
+.app-link:hover {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.75;
+}
+
+/* footer section */
+
+
+#footer {
+  background-color: #F0EAE3;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-socials {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.footer-social-title {
+  color:#7D8479;
+  font-size: 20px;
+}
+
+.footer-link {
+  display: inline-block;
+}
+
+.footer-link img {
+  height: 25px;
+  width: auto;
+  padding: 0 5px;
+}
+
+.footer-item {
+  list-style: none;
+}
+
+.footer-item:hover {
+  transform: scale(1.2);
+}
+
+.copyright {
+  color: #7D8479;
+  padding-top: 30px;
+}
+
+
+.attribution-links {
+  padding-top: 20px;
+  color: #7D8479;  
+}
+
+.attribution-links a {
+  color: #7D8479;
+  text-decoration: underline;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 390px){
+  
+  #about-section-container {
+    height: 500px;
+  }
+}
