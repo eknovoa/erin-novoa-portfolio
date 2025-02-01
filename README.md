@@ -10,17 +10,18 @@ When I am not studying or working as a Peer Tutor in the Programming Center at W
 
 ### Now on to the technical..  
 
-My Tech Stack: Python, JavaScript, Java, SQL, HTML, CSS, Flutter  
-Tools: Visual Studio Code, Git, Terminal, Figma, Jupyter Notebook  
-My interests: Back-end Development, Cloud Security, and Cybersecurity  
-Certifications: CompTIA A+, CompTIA Security+, ITIL Foundation, AWS Cloud Practitioner, and Microsoft Certified: Security, Compliance, and Identity Fundamentals  
+**My Tech Stack:** Python, JavaScript, Java, SQL, HTML, CSS, Flutter  
+**Tools:** Visual Studio Code, Git, Terminal, Figma, Jupyter Notebook  
+**My interests:** Back-end Development, Cloud Security, and Cybersecurity 
 
-Currently Studying:
+**Certifications:** CompTIA A+, CompTIA Security+, ITIL Foundation, AWS Cloud Practitioner, and Microsoft Certified: Security, Compliance, and Identity Fundamentals  
+
+**Currently Studying:**
 - for Project+ certification  
 - with Boot.dev on the backend developer path. I am currently learning C programming language and about Memory Management.  
 
 ---
 Please check out [my portfolio](https://erin-novoa-portfolio.w3spaces.com/)!
 
-Connect with me:  
+**Connect with me:**  
 📧 [erinnovoa@gmail.com](mailto:erinnovoa@gmail.com)
