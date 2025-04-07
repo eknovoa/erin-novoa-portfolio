@@ -12,12 +12,12 @@ When I am not studying or working as a Peer Tutor in the Programming Center at W
 
 **My Tech Stack:** Python, JavaScript, Java, SQL, HTML, CSS, Flutter  
 **Tools:** Visual Studio Code, Git, Terminal, Figma, Jupyter Notebook  
-**My interests:** Back-end Development, Cloud Security, and Cybersecurity 
+**My interests:** Design, Front-end Development, Back-end Development, Cloud Security, and Cybersecurity 
 
-**Certifications:** CompTIA A+, CompTIA Security+, ITIL Foundation, AWS Cloud Practitioner, and Microsoft Certified: Security, Compliance, and Identity Fundamentals  
+**Certifications:** CompTIA A+, CompTIA Security+, CompTIA Project+, ITIL Foundation, AWS Cloud Practitioner, and Microsoft Certified: Security, Compliance, and Identity Fundamentals  
 
 **Currently Studying:**
-- for Project+ certification  
+- finishing my last two courses with WGU (Mobile Development + Capstone Project)
 - with Boot.dev on the backend developer path. I am currently learning C programming language and about Memory Management.  
 
 ---
