@@ -168,7 +168,9 @@ nav img {
 .project-skills {
   padding-top: 30px;
   padding-bottom: 50px;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -209,6 +211,7 @@ nav img {
 
 .skill-text {
   color: white;
+  margin-bottom: 0px;
 }
 
 hr {
