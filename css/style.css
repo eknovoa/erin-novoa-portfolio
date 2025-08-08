@@ -55,22 +55,53 @@ nav img {
   text-align: center;
   color: #7D8479; 
   font-family: "Playfair Display"; 
-  font-size: 3em;
-  padding: 200px 0px;
+  /* font-size: 3em; */
+  padding: 125px 0px;
   display: flex;
 }
 
 .main-text {
-  text-align: center;
-  width: 100%;
+  /* text-align: center; */
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.main-text > div:first-child {
+  /* This is the container for your h1 and h3 */
+  order: 1; 
+  flex-grow: 1; /* Allows the text container to grow and fill available space */
+}
+
+.main-text > div:last-child {
+  /* This is the container for your image */
+  order: 2;
+}
+
+#main-page h1 {
+  font-family: "Raleway";
+  font-size: 48px;
 }
 
 #main-page h3 {
   font-family: "Raleway";
-  font-size: 0.5em;
-  padding-top: 55px;
+  font-size: 36px;
+  padding-top: 25px;
 }
 
+.main-emojis {
+  font-size: 48px;
+  letter-spacing: 0.25em;
+}
+
+.circle-image {
+  border: 5px solid #B36952;
+  border-radius: 50%;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  object-fit: cover;
+}
 
 .social-links-container {
   padding-left: 75px;
