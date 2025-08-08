@@ -6,39 +6,43 @@
 
 /* navigation section */
 
-nav {
-  background-color: #F0EAE3;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  column-gap: 50%;
+/* .navbar, .navbar-nav {
+  display: flex !important;
+} */
+.navbar {
+  background-color: #F0EAE3 !important;
+  /* justify-content: space-between !important; */
+  align-items: center !important;
 }
 
-nav ul {
-  display: flex; 
+.navbar-nav {
+  margin-right: 50px !important;
 }
 
-nav ul li{
-  display: inline-block;
+nav li {
+  list-style: none;
 }
 
-
-
-nav li a {
-  text-decoration: none;
-  color: #7D8479;
-  font-size: 24px;
-  padding: 0 20px;
-  font-family: "Playfair Display";
+.nav-link {
+  text-decoration: none !important;
+  color: #7D8479 !important;
+  font-size: 24px !important;
+  padding: 0 20px !important;
+  font-family: "Playfair Display" !important;
 }
 
-nav li a:hover {
-  text-decoration: underline;
+.nav-link:hover {
+  text-decoration: underline !important;
 }
 
 nav img {
   width: 275px;
   height: auto;
+}
+
+.navbar-collapse.show {
+  border: 1px solid #B36A52 !important;
+  padding: 10px 0px !important;
 }
 
 
