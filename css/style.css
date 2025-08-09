@@ -164,6 +164,14 @@ nav img {
   color: #7e8277;
 }
 
+/* TODO: change font later */
+.project-category {
+  font-family:'Courier New', Courier, monospace;
+  border: 3px solid #5F99AE;
+  margin: 100px 400px 50px 400px;
+  padding: 15px 0px;
+  border-radius: 20px;
+}
 
 .project-skills {
   padding-top: 30px;
