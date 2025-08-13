@@ -164,9 +164,11 @@ nav img {
 .project-category {
   font-family:'Courier New', Courier, monospace;
   border: 3px solid #5F99AE;
-  margin: 100px 400px 50px 400px;
-  padding: 15px 0px;
+  /* margin: 100px 400px 50px 400px; */
+  padding: 15px 10px;
   border-radius: 20px;
+  width: 80%;
+  margin: 10px auto;
 }
 
 .project-skills {
@@ -379,7 +381,8 @@ hr {
   }
 
   .project-category {
-    width: 100%;
+    width: 80%;
+    margin: 10px auto;
   }
 
   .farm-img, .hundehutte-img, .illustration-website {
@@ -404,10 +407,10 @@ hr {
     border: 1px solid black;
   }
 
-  .project-category {
+  /* .project-category {
     margin: 0 auto;
     width: 80%;
-  }
+  } */
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -415,10 +418,10 @@ hr {
     height: 500px;
   }
 
-  .project-category {
+  /* .project-category {
     width: 80%;
     margin: 0 auto;
-  }
+  } */
 
   .farm-img, .book-tracker, .hundehutte-img, .illustration-website {
     width: 600px;
@@ -431,10 +434,10 @@ hr {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .project-category {
+  /* .project-category {
     width: 80%;
     margin: 10px auto;
-  }
+  } */
 
   .book-tracker {
     margin-top: 5px;
@@ -445,6 +448,11 @@ hr {
   .book-tracker {
     margin-top: 5px;
   }
+
+  /* .project-category {
+    width: 80%;
+    margin: 10px auto;
+  } */
 }
 
 @media (min-width: 1281px) {
