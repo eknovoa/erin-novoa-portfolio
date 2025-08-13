@@ -66,6 +66,10 @@ nav img {
   align-items: center;
 }
 
+.description {
+  margin-right: 5px;
+}
+
 .about-text > div:first-child {
   order: 1; 
   flex-grow: 1;
@@ -92,6 +96,7 @@ nav img {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  margin-left: 5px;
 }
 
 .social-links-container {
@@ -354,20 +359,94 @@ hr {
 
 @media (max-width: 480px) {
 
+  #about {
+    padding: 50px 0px;
+  }
+
+  .circle-image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+
+  .about-text {
+    display: block;
+  }
+
+  #about-section-container {
+    height: 400px;
+  }
+
+  .project-category {
+    width: 100%;
+  }
+
+  .farm-img, .hundehutte-img, .illustration-website {
+    width: 75%;
+    height: auto;
+  }
+
+  .project-skills {
+    row-gap: 10px;
+  }
+
+  .book-tracker {
+    width: 75%;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  .py-fi {
+    width: 75%;
+    height: auto;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+
+  .project-category {
+    margin: 0 auto;
+    width: 80%;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  #about-section-container {
+    height: 500px;
+  }
 
+  .project-category {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .farm-img, .book-tracker, .hundehutte-img, .illustration-website {
+    width: 600px;
+    margin-top: 5px;
+  }
+
+  .app-images {
+    margin: 0px 5px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .project-category {
+    width: 80%;
+    margin: 10px auto;
+  }
 
+  .book-tracker {
+    margin-top: 5px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
+  .book-tracker {
+    margin-top: 5px;
+  }
 }
 
 @media (min-width: 1281px) {
-  
+
 }
