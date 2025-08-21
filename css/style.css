@@ -182,37 +182,31 @@ nav img {
 
 .skill-box1, .skill-box6 {
   background-color: #7D8479;
-  padding: 5px 10px;
-  margin: 0px 10px;
-  border-radius: 10px;
 }
 
-.skill-box2 {
+.skill-box2, .skill-box7 {
   background-color: #B36952;
   padding: 5px 20px;
-  margin: 0px 10px;
+  margin: 5px 10px;
   border-radius: 10px;
 }
 
 .skill-box3 {
   background-color: #C39776;
-  padding: 5px 10px;
-  margin: 0px 10px;
-  border-radius: 10px;
 }
 
 .skill-box4 {
   background-color: #a1a49f;
-  padding: 5px 10px;
-  margin: 0px 10px;
-  border-radius: 10px;
 }
 
 .skill-box5 {
   background-color: #5F99AE;
+}
+
+.skill-box1, .skill-box3, .skill-box4, .skill-box5, .skill-box6 {
   padding: 5px 10px;
-  margin: 0px 10px;
-  border-radius: 10px;
+  margin: 5px 10px;
+  border-radius: 10px; 
 }
 
 .skill-text {
@@ -240,7 +234,7 @@ hr {
   width: 250px;
 }
 
-.farm-img {
+.farm-img, .color-img{
   margin: 0px 20px;
   height: auto;
   width: 800px;
@@ -299,12 +293,12 @@ hr {
   color: black;
 }
 
-.app-link2:hover, .github-link {
+.app-link2:hover, .github-link, .api-link {
   text-decoration: underline;
   color: #c39776;
 }
 
-.github-link:hover, .app-link:hover {
+.github-link:hover, .app-link:hover, .api-link:hover {
   opacity: 0.75;
 }
 
@@ -385,7 +379,7 @@ hr {
     margin: 10px auto;
   }
 
-  .farm-img, .hundehutte-img, .illustration-website {
+  .farm-img, .color-img, .hundehutte-img, .illustration-website {
     width: 75%;
     height: auto;
   }
@@ -423,7 +417,7 @@ hr {
     margin: 0 auto;
   } */
 
-  .farm-img, .book-tracker, .hundehutte-img, .illustration-website {
+  .farm-img, .color-img, .book-tracker, .hundehutte-img, .illustration-website {
     width: 600px;
     margin-top: 5px;
   }
