@@ -397,7 +397,7 @@ hr {
     row-gap: 10px;
   }
 
-  .book-tracker {
+  .book-tracker, .quizzical-img, .language-img {
     width: 75%;
     height: auto;
     margin-top: 5px;
@@ -426,7 +426,7 @@ hr {
     margin: 0 auto;
   } */
 
-  .farm-img, .color-img, .book-tracker, .hundehutte-img, .illustration-website {
+  .farm-img, .color-img, .book-tracker, .hundehutte-img, .illustration-website, .quizzical-img, .language-img {
     width: 600px;
     margin-top: 5px;
   }
