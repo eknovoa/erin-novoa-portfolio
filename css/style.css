@@ -234,10 +234,17 @@ hr {
   width: 250px;
 }
 
-.farm-img, .color-img{
+.farm-img, .color-img {
   margin: 0px 20px;
   height: auto;
   width: 800px;
+}
+
+.language-img, .quizzical-img {
+  height: auto;
+  width: 500px;
+  border: 1px solid black;
+  border-style: inset;
 }
 
 .py-fi {
@@ -264,9 +271,11 @@ hr {
 }
 
 .app-images {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  gap: 10px;
   padding-top: 40px;
   padding-bottom: 5px;
 }
